@@ -65,14 +65,19 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'iniciar-sesion',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Sitio Web',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            type: 'doc',
+            docId: 'iniciar-sesion',
+            position: 'left',
+            label: 'Chatbot',
+          },
+          {
+            href: '#',
+            label: 'Solicitar ajustes',
             position: 'right',
           },
         ],
